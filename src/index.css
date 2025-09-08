@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+/* Philosopher Regular */
+@font-face {
+  font-family: 'Philosopher';
+  src: url('/fonts/Philosopher-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Philosopher Bold */
+@font-face {
+  font-family: 'Philosopher';
+  src: url('/fonts/Philosopher-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+/* D-DIN Pro Light */
+@font-face {
+  font-family: 'D-DIN Pro';
+  src: url('/fonts/D-DIN-PRO-400-Regular.woff2') format('woff2');
+  font-weight: 300; /* Light */
+  font-style: normal;
+}
+
+/* D-DIN Pro Regular */
+@font-face {
+  font-family: 'D-DIN Pro';
+  src: url('/fonts/D-DIN-PRO-500-Medium.woff2') format('woff2');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+/* D-DIN Pro Medium / Bold */
+@font-face {
+  font-family: 'D-DIN Pro';
+  src: url('/fonts/D-DIN-PRO-600-SemiBold.woff2') format('woff2');
+  font-weight: 600; /* Medium */
+  font-style: normal;
+}
+
+/* Optional: Bold */
+@font-face {
+  font-family: 'D-DIN Pro';
+  src: url('/fonts/D-DIN-PRO-700-Bold.woff2') format('woff2');
+  font-weight: 700; /* Bold */
+  font-style: normal;
+}
+
+/* Chrome, Edge, Safari */
+.scrollbar-custom::-webkit-scrollbar {
+  scrollbar-width: 8px; /* width of scrollbar */
+}
+
+.scrollbar-custom::-webkit-scrollbar-track {
+  background: #e5e7eb; /* gray-200 track */
+
+}
+
+.scrollbar-custom::-webkit-scrollbar-thumb {
+  background: #15e43b;/* yellow-400 thumb */
+}
+
+/* Firefox */
+.scrollbar-custom {
+  scrollbar-width: 8px;
+  scrollbar-color: #040874 hsl(216, 24%, 96%); /* thumb color | track color */
+    
+}
